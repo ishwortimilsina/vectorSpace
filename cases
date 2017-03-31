@@ -1,0 +1,39 @@
+Output set1:
+print(query("health insurance wall street"))
+2012-10-03.txt
+print(getcount("health"))
+483
+print("%.12f" % getidf("health"))
+0.079181246048
+print("%.12f" % docdocsim("1960-09-26.txt", "1980-09-21.txt"))
+0.068531196532
+print("%.12f" % querydocsim("health insurance wall street", "1996-10-06.txt"))
+0.022032578028
+
+-------------------------------------------------------------------------------------
+
+Output set2:
+print(query("security conference ambassador"))
+1960-10-21.txt
+print(getcount('attack'))
+109
+print("%.12f" % getidf("agenda"))
+0.363177902413
+print("%.12f" % docdocsim("1960-10-21.txt", "1980-09-21.txt"))
+0.060203573673
+print("%.12f" % querydocsim("particular constitutional amendment", "2000-10-03.txt"))
+0.012542376718
+
+----------------------------------------------------------------------------------------
+
+Output set3:
+print(query("particular constitutional amendment"))
+1976-10-22.txt
+print(getcount('amend'))
+90
+print("%.12f" % getidf("particular"))
+0.176091259056
+print("%.12f" % docdocsim("1960-09-26.txt", "1960-10-21.txt"))
+0.178876247414
+print("%.12f" % querydocsim("health insurance wall street", "2000-10-03.txt"))
+0.007815215703
